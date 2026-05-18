@@ -17,7 +17,7 @@ console.log("API Key length:", process.env.ANTHROPIC_API_KEY?.length);
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": process.env.ANTHROPIC_API_KEY,
+      "x-api-key": "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",
         "anthropic-version": "2023-06-01",
       },
       body: JSON.stringify({
