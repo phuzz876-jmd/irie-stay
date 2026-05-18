@@ -212,7 +212,7 @@ export default function IrieStay() {
 const s = {
   root: {
     minHeight: "100vh",
-    background: "red",
+    background: "linear-gradient(150deg, #0a1628 0%, #1a3a2a 30%, #2d5a3d 60%, #1a3a2a 100%)",
     display: "flex", alignItems: "center", justifyContent: "center",
     padding: 16, fontFamily: "system-ui, sans-serif", position: "relative",
   },
