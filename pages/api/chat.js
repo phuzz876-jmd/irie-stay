@@ -3,7 +3,10 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
+  console.log("API Key exists:", !!process.env.ANTHROPIC_API_KEY);
+console.log("API Key length:", process.env.ANTHROPIC_API_KEY?.length);
   const { messages } = req.body;
+  
 
   if (!messages || !Array.isArray(messages)) {
     return res.status(400).json({ error: "Invalid messages format" });
