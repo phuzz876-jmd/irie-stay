@@ -229,7 +229,7 @@ const s = {
     width: "100%", maxWidth: 720, background: "#fff",
     borderRadius: 20, overflow: "hidden",
     boxShadow: "0 50px 120px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,210,0,0.15)",
-    display: "flex", flexDirection: "column", maxHeight: "94vh",
+    display: "flex", flexDirection: "column", maxHeight: "100vh",
   },
  header: {
     background: "#006994",
@@ -273,7 +273,7 @@ const s = {
     padding: "3px 10px", borderRadius: 20, border: "1px solid #c5e0cc", whiteSpace: "nowrap",
   },
   messages: {
-    flex: 1, overflowY: "auto", padding: "20px 18px 8px",
+    flex: 1, overflowY: "auto", padding: "14px 14px 8px",
     display: "flex", flexDirection: "column", minHeight: 260,
   },
   avatar: {
