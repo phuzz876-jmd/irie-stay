@@ -84,6 +84,18 @@ export default function IrieStay() {
       });
 
       const data = await res.json();
+
+      if (!res.ok) {
+        setMessages([
+          ...newMessages,
+          {
+            role: "assistant",
+            content: "Sorry, something went wrong. Please try again or contact Cynthia at 876-567-8734. 🙏",
+          },
+        ]);
+        return;
+      }
+
       const reply = data.content?.[0]?.text || "Sorry, something went wrong. Please contact Cynthia at 876-567-8734. 🙏";
       setMessages([...newMessages, { role: "assistant", content: reply }]);
     } catch {
