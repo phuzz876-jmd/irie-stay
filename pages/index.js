@@ -204,6 +204,11 @@ export default function IrieStay() {
         @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
         @keyframes bounce { 0%,80%,100%{transform:translateY(0)} 40%{transform:translateY(-5px)} }
         @keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+        @media (max-width: 600px) {
+      .property-name { font-size: 16px !important; }
+      .header-inner { gap: 10px !important; }
+    .logo-mark { width: 36px !important; height: 36px !important; font-size: 18px !important; }
+}
       `}</style>
     </div>
   );
