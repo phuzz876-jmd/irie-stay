@@ -227,7 +227,7 @@ const s = {
     display: "flex", flexDirection: "column", maxHeight: "94vh",
   },
   header: {
-    background: "linear-gradient(100deg, #071a0b 0%, #0f3d17 60%, #1a5c28 100%)",
+    background: "#006994",
     padding: "16px 20px", display: "flex", alignItems: "center", justifyContent: "space-between",
     borderBottom: "2.5px solid #ffd200",
   },
@@ -283,7 +283,7 @@ const s = {
     animation: "fadeUp 0.25s ease",
   },
   userBubble: {
-    background: "linear-gradient(135deg, #0d2e12, #1a5c28)",
+    background: "#006994",
     borderRadius: "18px 4px 18px 18px", padding: "13px 16px",
     maxWidth: "78%", fontSize: 14, lineHeight: 1.65, color: "#fff",
     animation: "fadeUp 0.25s ease",
