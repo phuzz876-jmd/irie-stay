@@ -231,20 +231,21 @@ const s = {
     boxShadow: "0 50px 120px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,210,0,0.15)",
     display: "flex", flexDirection: "column", maxHeight: "94vh",
   },
-  header: {
+ header: {
     background: "#006994",
-    padding: "16px 20px", display: "flex", alignItems: "center", justifyContent: "space-between",
+    padding: "10px 14px",
+    display: "flex", alignItems: "center", justifyContent: "space-between",
     borderBottom: "2.5px solid #ffd200",
   },
-  headerInner: { display: "flex", alignItems: "center", gap: 14 },
+ headerInner: { display: "flex", alignItems: "center", gap: 10 },
   logoMark: {
-    width: 50, height: 50, borderRadius: 14,
+    width: 36, height: 36, borderRadius: 10,
     background: "linear-gradient(135deg, rgba(255,210,0,0.18), rgba(255,255,255,0.05))",
     border: "1px solid rgba(255,210,0,0.3)",
     display: "flex", alignItems: "center", justifyContent: "center",
-    fontSize: 24, flexShrink: 0,
+    fontSize: 20, flexShrink: 0,
   },
-  propertyName: { fontSize: 22, fontWeight: 700, color: "#fff", lineHeight: 1.2 },
+  propertyName: { fontSize: 17, fontWeight: 700, color: "#fff", lineHeight: 1.2 },
   brandLine: { display: "flex", alignItems: "center", gap: 10, marginTop: 3 },
   irieBadge: {
     background: "#ffd200", color: "#071a0b",
