@@ -10,13 +10,13 @@ export default async function handler(req, res) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": process.env.ANTHROPIC_API_KEY,
+        "x-api-key": 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,
         "anthropic-version": "2023-06-01",
       },
       body: JSON.stringify({
         model: "claude-sonnet-4-20250514",
         max_tokens: 1000,
-        system: "You are a helpful assistant for Wray Villa Retreat in Portland Jamaica. Answer guest questions warmly.",
+        system: "You are a helpful assistant for Wray Villa Retreat in Portland, Jamaica. Answer guest questions warmly.",
         messages: messages,
       }),
     });
