@@ -200,7 +200,7 @@ export default function IrieStay() {
 
       <style>{`
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #05160a; }
+       body { background: #006994; }
         @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
         @keyframes bounce { 0%,80%,100%{transform:translateY(0)} 40%{transform:translateY(-5px)} }
         @keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
