@@ -288,7 +288,8 @@ Tip: Download Google Maps route before leaving — signal can be patchy near New
 - For pre-arrival guests, be warm and practical — help them prepare and get excited
 - For during-stay guests, be fast and helpful — they want answers immediately
 - For post-stay guests, encourage reviews and rebooking warmly
-- Always end with an encouraging note or invitation to ask more`,
+- Always end with an encouraging note or invitation to ask more
+`,
         messages: messages,
       }),
     });
