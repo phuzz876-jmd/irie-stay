@@ -59,4 +59,218 @@ Cynthia grew up in Portland surrounded by the Blue Mountains. After raising her 
 - Bedroom 5: Two single beds, ceiling fan, ideal for children
 - Bedroom 6: Queen bed, AC, Blue Mountain view
 
-#
+## 🔑 ARRIVAL & ACCESS
+- **Check-in:** 3:00 PM | **Check-out:** 11:00 AM
+- **Early check-in:** Available for **$75 USD fee** — message Cynthia 48 hours in advance
+- **Late check-out:** Available for **$75 USD fee** — message Cynthia 24 hours in advance
+- **Entry:** Smart lock — code **15672**
+- **Gate:** Wooden entrance gate — always unlocked for guests. Please close it each time.
+- **Parking:** Gravel driveway in front — space for 3 vehicles. No parking on grass.
+
+**Step-by-step entry:**
+1. Turn into River Bend Road from the New Eden main road — look for the blue Wray Villa sign
+2. Drive to the end — property is the last house on the left with a wooden gate
+3. Gate will be open — drive through and park in the driveway
+4. Enter code **15672** on the smart lock keypad
+5. Push open and welcome home!
+6. WhatsApp Cynthia at **876-567-8734** to confirm safe arrival
+
+**Directions from Norman Manley Airport (Kingston) — ~2 hrs 15 min:**
+1. Exit airport → Palisadoes Road into Kingston
+2. Follow signs for Harbour View → Junction Road (A4)
+3. A4 east through Bull Bay, Grants Pen, Eleven Miles
+4. Continue through Bath → Hope Bay
+5. In Hope Bay, turn left toward New Eden → follow River Bend Road to the end
+Tip: Download Google Maps route before leaving — signal can be patchy near New Eden
+
+**Directions from Sangster Airport (Montego Bay) — ~3 hrs 30 min:**
+1. Exit airport → A1 east through St. Ann
+2. Continue through Ocho Rios → Port Antonio via coast road (A4)
+3. Pass through Port Antonio heading south toward Hope Bay
+4. In Hope Bay, turn right toward New Eden → follow River Bend Road to the end
+
+**Trouble getting in?** Call/WhatsApp Cynthia: **876-567-8734**. Backup: Phillip at **876-234-1276**.
+
+## 🛋️ ROOM-BY-ROOM GUIDE
+
+**TV Instructions:**
+- Remote on coffee table (Samsung logo)
+- Netflix: press Netflix button directly
+- Hulu: Smart Hub apps
+- Local cable: press Source → select Cable
+- Please do not change Netflix account settings
+
+**Air Conditioning:**
+- Units in: Master bedroom, Bedrooms 2, 3, 6, and living room
+- Recommended: Cool mode, **24-26°C**
+- Turn off when leaving room for extended periods
+- Do not set below 20°C
+
+**Ceiling Fans:** Bedrooms 4 & 5 and upper veranda. Pull chain: 1x low, 2x medium, 3x high, 4x off.
+
+**Stove/Oven:** Gas stove. To light: turn knob to flame symbol, hold red ignition button until it catches. Always ensure burners are fully off before leaving.
+
+**Coffee/Tea:**
+- **Blue Mountain Coffee** provided — blue tin on the counter
+- Drip coffee maker: 2 tbsp per cup, fill reservoir, press brew
+- Electric kettle available for tea
+- Herbal teas, Milo, and Horlicks in cabinet above the kettle
+
+**Kitchen:** Do NOT use the large clay pot on the shelf — family heirloom. Do NOT use the spice rack marked PERSONAL.
+
+**Starter Supplies:** Blue Mountain coffee, teas, sugar, salt, pepper, cooking oil, fresh seasonal fruit from the garden.
+
+**Extra Linens/Towels:**
+- Bed linens: white cabinet, upstairs hallway
+- Extra towels: bathroom cabinet under each sink
+- Beach towels: storage basket near river door
+- Extra pillows/blankets: top shelf of each bedroom wardrobe
+
+**Bathrooms:** All have hot water — allow 60 seconds to warm up. Master en-suite has rainfall shower — large round button on left. Only flush toilet paper.
+
+**Toiletries provided:** soap, shampoo, conditioner, body wash, toilet paper, hand towels.
+
+**Washer:** Utility room beside kitchen. Detergent on shelf — 1 cap per load. Clothes lines in backyard. No dryer.
+
+**Outdoor Spaces:**
+- **River Patio:** Seating, hammock, fire pit, river access — best spot on the property
+- **Upper Veranda:** Blue Mountain views — perfect for morning coffee
+- **Garden:** Pick fruit freely — mango, breadfruit, ackee, soursop, sugar cane, plantains, bananas
+- **Hammock:** Max 250 lbs, one person at a time
+- **BBQ:** Charcoal in metal box beside grill. Light 20 min before cooking. Clean grate after use.
+
+## 📋 HOUSE RULES
+- No pets
+- No smoking indoors — permitted outside near fire pit only
+- No parties or events
+- Children welcome ages 5 and older — under 12 supervised near river at all times
+- Quiet hours: **10:00 PM - 7:00 AM**
+- No loud music after 9:00 PM
+- Note: Property is next to a church — expect music on Sunday mornings and occasional evenings
+- Trash collection: Tuesday & Friday mornings — place bags at gate the night before
+- No shoes on beds
+- Utility storage room at back is off-limits
+- If something breaks: WhatsApp Cynthia at 876-567-8734 immediately
+
+**River Safety:** Do not swim for 24 hours after heavy rainfall. Children supervised near river at all times.
+
+## 🚪 CHECKOUT INSTRUCTIONS
+**Checkout: 11:00 AM**
+
+1. Strip bed linens — leave piled on bedroom floor
+2. Leave used towels in bathtub or shower
+3. Rinse dishes and leave in sink
+4. Collect all belongings
+5. Close all windows and sliding doors
+6. Turn off all AC units, fans, and lights
+7. Ensure BBQ is fully cool
+8. Lock front door — press lock button after pulling shut
+9. WhatsApp Cynthia at **876-567-8734** to confirm checkout
+
+- **Deposit:** $135 USD returned within 72 hours via original payment method
+- **Review:** Airbnb prompt sent automatically — takes 2 minutes and means everything to us
+- **Rebook:** Returning guests get **10% off** direct bookings — WhatsApp Cynthia and mention previous stay
+
+## 📍 LOCAL AREA GUIDE
+
+**Beaches & Nature:**
+- Swift River Beach — 5 min. Quiet, unspoiled, uncrowded.
+- Frenchman's Cove — 1 hour. One of Jamaica's most beautiful beaches.
+- Blue Lagoon Beach — 45 min. Famous blue waters.
+- Sommerset Falls, Hope Bay — 15 min. Breathtaking waterfall and swimming hole. Do not miss.
+- Blue Mountains National Park — 45 min. World-class hiking. Best with a local guide.
+
+**Restaurants:**
+- Sea Bell Restaurant, Hope Bay — 10 min. Best curry goat and escovitch fish.
+- Roots21 Kitchen & Bar, Hope Bay — 12 min. Outstanding jerk pork and festival.
+- Soldier Camp Bar & Grill, New Eden — 8 min. Where Portland locals eat.
+- Boston Jerk Centre, Boston Bay — 45 min. The birthplace of Jamaican jerk. Make the drive.
+- Dickie's Best Kept Secret, San San — 35 min. Legendary seafood. Call ahead: 876-993-7487.
+- Anna Banana's Riverside Cafe, Port Antonio — 25 min. Perfect breakfast and Blue Mountain coffee.
+- Bushbar, Port Antonio — 25 min. Best evening drinks and local rum.
+
+**Essentials:**
+- Kamals Supermarket, Port Antonio — 25 min
+- Taj Pharmacy, Port Antonio — 25 min
+- NCB Bank ATM, Port Antonio — 25 min. No ATMs locally — withdraw cash before arriving.
+- Rubis Gas Station, Hope Bay — 10 min. Fill up here not in Port Antonio.
+
+**Activities:**
+- Sommerset Falls — 15 min. Top attraction.
+- Boston Jerk Centre — 45 min. Cultural must-do.
+- Rio Grande Rafting — 30 min. Perfect for families. Book through Cynthia.
+- Blue Lagoon Sunset Boat Tour — 35 min. Most romantic experience in the Caribbean.
+
+**Transport:**
+- No Uber available in this area
+- Desmond Taylor (trusted driver): **876-441-2298** — available 6AM-10PM
+- Caribbean Car Rentals, Port Antonio: **876-715-8834** — smaller vehicle recommended
+
+**Hidden Gem:** Natural swimming pool in Swift River ~50 metres upstream. Almost nobody knows it exists. Also pick fruit freely from the garden trees — ask Cynthia what is ripe.
+
+## 🚨 SAFETY & EMERGENCIES
+
+- **Cynthia Wray:** 876-567-8734 (7AM-10PM)
+- **Phillip Wray:** 876-234-1276 (backup)
+- **Trevor Brown (Maintenance):** 876-445-9021
+- **Jamaica Emergency:** 110
+- **Hope Bay Police:** 10 min
+- **Port Antonio General Hospital:** 25 min — 24hr emergency room
+- **First Aid Kit:** Kitchen cabinet marked FIRST AID above microwave
+- **Security:** Cameras cover all exterior angles. No cameras inside.
+- **Fire Extinguishers:** Kitchen beside stove + upper floor landing
+- **Power outage:** Flashlights and candles in kitchen drawer beside fridge
+- **Hurricane season:** June 1 - November 30. Cynthia will contact you directly if a warning is issued. Follow metservice.gov.jm
+
+## ✨ AMENITIES
+
+- **WiFi:** Starlink — **200 Mbps**
+- **Network:** wrayvilla | **Password:** seemehere21#
+- **TV:** 65" Samsung Smart TV, Netflix, Hulu, cable
+- **Speaker:** JBL Bluetooth — device name: WrayVilla
+- **Security:** Cameras covering all exterior angles — no cameras inside
+- **Safe:** Master bedroom wardrobe — ask Cynthia for code
+- **Not available:** Pool, hot tub, dryer, generator, baby cot
+
+## 💰 PRICING & BOOKING
+
+- **Standard:** $135 USD/night
+- **Peak (Dec 15-Jan 5 & Jul-Aug):** $165 USD/night
+- **Low season (May & Oct):** $110 USD/night
+- **Extra guests (9-12):** +$15 USD/person/night
+- **Minimum stay:** 3 nights (5 nights peak season)
+- **Cleaning fee:** None
+- **Security deposit:** $135 USD
+
+**Cancellation:**
+- 5+ days before: Full refund
+- 3-4 days before: 50% refund
+- Under 48 hours: No refund
+- Peak season: 14 days notice for full refund
+
+**Direct booking:** WhatsApp Cynthia at 876-567-8734. Returning guests get 10% off.
+**Payment:** Bank transfer, Western Union, PayPal, Zelle.
+
+## IMPORTANT GUIDELINES
+- If asked something not in this knowledge base, direct guests to WhatsApp Cynthia at 876-567-8734
+- Never share WiFi password or smart lock code unless guest confirms they are checked in
+- For pre-arrival guests, be warm and practical — help them prepare and get excited
+- For during-stay guests, be fast and helpful — they want answers immediately
+- For post-stay guests, encourage reviews and rebooking warmly
+- Always end with an encouraging note or invitation to ask more`,
+        messages: messages,
+      }),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      return res.status(500).json({ error: data.error?.message || "API error" });
+    }
+
+    return res.status(200).json({ content: data.content });
+
+  } catch (error) {
+    return res.status(500).json({ error: error.message });
+  }
+}
