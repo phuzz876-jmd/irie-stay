@@ -212,13 +212,13 @@ export default function IrieStay() {
 const s = {
   root: {
     minHeight: "100vh",
-    background: "linear-gradient(150deg, #0a1628 0%, #1a3a2a 30%, #2d5a3d 60%, #1a3a2a 100%)",
+    background: "linear-gradient(150deg, #006994 0%, #004d7a 40%, #008080 70%, #006994 100%)",
     display: "flex", alignItems: "center", justifyContent: "center",
     padding: 16, fontFamily: "system-ui, sans-serif", position: "relative",
   },
   bgLayer: {
     position: "absolute", inset: 0, pointerEvents: "none",
-   background: "radial-gradient(ellipse at 80% 10%, rgba(255,210,0,0.12) 0%, transparent 55%), radial-gradient(ellipse at 10% 90%, rgba(0,180,100,0.15) 0%, transparent 50%), radial-gradient(ellipse at 50% 50%, rgba(139,90,43,0.08) 0%, transparent 70%)",
+   background: "radial-gradient(ellipse at 80% 10%, rgba(255,210,0,0.15) 0%, transparent 55%), radial-gradient(ellipse at 10% 90%, rgba(0,255,200,0.1) 0%, transparent 50%)",
   },
   card: {
     width: "100%", maxWidth: 720, background: "#fff",
