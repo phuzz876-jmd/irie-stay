@@ -84,18 +84,6 @@ export default function IrieStay() {
       });
 
       const data = await res.json();
-
-      if (!res.ok) {
-        setMessages([
-          ...newMessages,
-          {
-            role: "assistant",
-            content: "Sorry, something went wrong. Please try again or contact Cynthia at 876-567-8734. 🙏",
-          },
-        ]);
-        return;
-      }
-
       const reply = data.content?.[0]?.text || "Sorry, something went wrong. Please contact Cynthia at 876-567-8734. 🙏";
       setMessages([...newMessages, { role: "assistant", content: reply }]);
     } catch {
@@ -124,6 +112,7 @@ export default function IrieStay() {
                 <span style={s.irieBadge}>IRIE STAY</span>
                 <span style={s.locationText}>📍 Portland, Jamaica</span>
               </div>
+              <div style={s.purposeLine}>Your personal guide for your stay 🌴</div>
             </div>
           </div>
           <div style={s.livePill}>
@@ -200,15 +189,10 @@ export default function IrieStay() {
 
       <style>{`
         * { box-sizing: border-box; margin: 0; padding: 0; }
-       body { background: #006994; }
+        body { background: #05160a; }
         @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
         @keyframes bounce { 0%,80%,100%{transform:translateY(0)} 40%{transform:translateY(-5px)} }
         @keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
-        @media (max-width: 600px) {
-      .property-name { font-size: 16px !important; }
-      .header-inner { gap: 10px !important; }
-    .logo-mark { width: 36px !important; height: 36px !important; font-size: 18px !important; }
-}
       `}</style>
     </div>
   );
@@ -217,35 +201,34 @@ export default function IrieStay() {
 const s = {
   root: {
     minHeight: "100vh",
-    background: "linear-gradient(150deg, #006994 0%, #004d7a 40%, #008080 70%, #006994 100%)",
+    background: "linear-gradient(150deg, #05160a 0%, #0d2e12 45%, #071a0b 100%)",
     display: "flex", alignItems: "center", justifyContent: "center",
     padding: 16, fontFamily: "system-ui, sans-serif", position: "relative",
   },
   bgLayer: {
     position: "absolute", inset: 0, pointerEvents: "none",
-   background: "radial-gradient(ellipse at 80% 10%, rgba(255,210,0,0.15) 0%, transparent 55%), radial-gradient(ellipse at 10% 90%, rgba(0,255,200,0.1) 0%, transparent 50%)",
+    background: "radial-gradient(ellipse at 80% 10%, rgba(255,210,0,0.07) 0%, transparent 55%), radial-gradient(ellipse at 10% 90%, rgba(34,139,34,0.1) 0%, transparent 50%)",
   },
   card: {
     width: "100%", maxWidth: 720, background: "#fff",
     borderRadius: 20, overflow: "hidden",
     boxShadow: "0 50px 120px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,210,0,0.15)",
-    display: "flex", flexDirection: "column", maxHeight: "100vh",
+    display: "flex", flexDirection: "column", maxHeight: "94vh",
   },
- header: {
-    background: "#006994",
-    padding: "10px 14px",
-    display: "flex", alignItems: "center", justifyContent: "space-between",
+  header: {
+    background: "linear-gradient(100deg, #071a0b 0%, #0f3d17 60%, #1a5c28 100%)",
+    padding: "16px 20px", display: "flex", alignItems: "center", justifyContent: "space-between",
     borderBottom: "2.5px solid #ffd200",
   },
- headerInner: { display: "flex", alignItems: "center", gap: 10 },
+  headerInner: { display: "flex", alignItems: "center", gap: 14 },
   logoMark: {
-    width: 36, height: 36, borderRadius: 10,
+    width: 50, height: 50, borderRadius: 14,
     background: "linear-gradient(135deg, rgba(255,210,0,0.18), rgba(255,255,255,0.05))",
     border: "1px solid rgba(255,210,0,0.3)",
     display: "flex", alignItems: "center", justifyContent: "center",
-    fontSize: 20, flexShrink: 0,
+    fontSize: 24, flexShrink: 0,
   },
-  propertyName: { fontSize: 17, fontWeight: 700, color: "#fff", lineHeight: 1.2 },
+  propertyName: { fontSize: 22, fontWeight: 700, color: "#fff", lineHeight: 1.2 },
   brandLine: { display: "flex", alignItems: "center", gap: 10, marginTop: 3 },
   irieBadge: {
     background: "#ffd200", color: "#071a0b",
@@ -253,6 +236,7 @@ const s = {
     padding: "2px 8px", borderRadius: 4,
   },
   locationText: { fontSize: 12, color: "rgba(255,255,255,0.55)" },
+  purposeLine: { fontSize: 11, color: "rgba(255,210,0,0.85)", marginTop: 4, fontStyle: "italic" },
   livePill: {
     display: "flex", alignItems: "center", gap: 6,
     background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.15)",
@@ -273,7 +257,7 @@ const s = {
     padding: "3px 10px", borderRadius: 20, border: "1px solid #c5e0cc", whiteSpace: "nowrap",
   },
   messages: {
-    flex: 1, overflowY: "auto", padding: "14px 14px 8px",
+    flex: 1, overflowY: "auto", padding: "20px 18px 8px",
     display: "flex", flexDirection: "column", minHeight: 260,
   },
   avatar: {
@@ -289,7 +273,7 @@ const s = {
     animation: "fadeUp 0.25s ease",
   },
   userBubble: {
-    background: "#006994",
+    background: "linear-gradient(135deg, #0d2e12, #1a5c28)",
     borderRadius: "18px 4px 18px 18px", padding: "13px 16px",
     maxWidth: "78%", fontSize: 14, lineHeight: 1.65, color: "#fff",
     animation: "fadeUp 0.25s ease",
