@@ -52,7 +52,7 @@ function inlineBold(text) {
 export default function IrieStay() {
   const [messages, setMessages] = useState([{
     role: "assistant",
-    content: "Welcome to Wray Villa Retreat! 🏔️🇯🇲\n\nI'm your **Irie Stay** concierge — your personal guide from the moment you confirmed your booking to the moment you check out.\n\nWhether you're planning your arrival, need directions, want local restaurant tips, or have questions during your stay — I'm here 24/7. One love!\n\nWhat can I help you with? 🌿",
+    content: "Welcome to Wray Villa Retreat! 🏔️🇯🇲\n\nI'm **Irie** — your personal guide from the moment you confirmed your booking to the moment you check out.\n\nWhether you're planning your arrival, need directions, want local restaurant tips, or have questions during your stay — I'm here 24/7. One love!\n\nWhat can I help you with? 🌿",
   }]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -74,7 +74,6 @@ export default function IrieStay() {
     setLoading(true);
 
     try {
-      // Calls OUR backend — API key is safe on the server
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -121,18 +120,16 @@ export default function IrieStay() {
           </div>
         </div>
 
-        {/* Highlights */}
-        <div style={s.strip}>
-          {["6 Bedrooms", "12 Guests", "Starlink 200Mbps", "River Access", "Blue Mtn Views", "60yr Family Home"].map(h => (
-            <span key={h} style={s.chip}>{h}</span>
-          ))}
-        </div>
-
         {/* Messages */}
         <div style={s.messages}>
           {messages.map((msg, i) => (
             <div key={i} style={{ display: "flex", flexDirection: msg.role === "user" ? "row-reverse" : "row", alignItems: "flex-end", gap: 8, marginBottom: 16 }}>
-              {msg.role === "assistant" && <div style={s.avatar}>🌴</div>}
+              {msg.role === "assistant" && (
+                <div style={s.avatarWrap}>
+                  <div style={s.avatar}>🌴</div>
+                  <div style={s.avatarName}>Irie</div>
+                </div>
+              )}
               <div style={msg.role === "user" ? s.userBubble : s.botBubble}>
                 {msg.role === "assistant" ? renderMarkdown(msg.content) : msg.content}
               </div>
@@ -141,7 +138,10 @@ export default function IrieStay() {
 
           {loading && (
             <div style={{ display: "flex", alignItems: "flex-end", gap: 8, marginBottom: 16 }}>
-              <div style={s.avatar}>🌴</div>
+              <div style={s.avatarWrap}>
+                <div style={s.avatar}>🌴</div>
+                <div style={s.avatarName}>Irie</div>
+              </div>
               <div style={{ ...s.botBubble, display: "flex", gap: 5, alignItems: "center", padding: "14px 18px" }}>
                 {[0, 0.18, 0.36].map((d, i) => (
                   <span key={i} style={{ ...s.dot, animationDelay: `${d}s` }} />
@@ -169,7 +169,7 @@ export default function IrieStay() {
           <textarea
             style={s.textarea}
             rows={1}
-            placeholder="Ask about check-in, amenities, local tips…"
+            placeholder="Ask Irie about check-in, amenities, local tips…"
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={handleKey}
@@ -189,7 +189,7 @@ export default function IrieStay() {
 
       <style>{`
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #05160a; }
+        body { background: #006994; }
         @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
         @keyframes bounce { 0%,80%,100%{transform:translateY(0)} 40%{transform:translateY(-5px)} }
         @keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
@@ -201,13 +201,13 @@ export default function IrieStay() {
 const s = {
   root: {
     minHeight: "100vh",
-    background: "linear-gradient(150deg, #05160a 0%, #0d2e12 45%, #071a0b 100%)",
+    background: "linear-gradient(150deg, #006994 0%, #004d7a 40%, #008080 70%, #006994 100%)",
     display: "flex", alignItems: "center", justifyContent: "center",
     padding: 16, fontFamily: "system-ui, sans-serif", position: "relative",
   },
   bgLayer: {
     position: "absolute", inset: 0, pointerEvents: "none",
-    background: "radial-gradient(ellipse at 80% 10%, rgba(255,210,0,0.07) 0%, transparent 55%), radial-gradient(ellipse at 10% 90%, rgba(34,139,34,0.1) 0%, transparent 50%)",
+    background: "radial-gradient(ellipse at 80% 10%, rgba(255,210,0,0.15) 0%, transparent 55%), radial-gradient(ellipse at 10% 90%, rgba(0,255,200,0.1) 0%, transparent 50%)",
   },
   card: {
     width: "100%", maxWidth: 720, background: "#fff",
@@ -216,19 +216,19 @@ const s = {
     display: "flex", flexDirection: "column", maxHeight: "94vh",
   },
   header: {
-    background: "linear-gradient(100deg, #071a0b 0%, #0f3d17 60%, #1a5c28 100%)",
-    padding: "16px 20px", display: "flex", alignItems: "center", justifyContent: "space-between",
+    background: "#006994",
+    padding: "10px 14px", display: "flex", alignItems: "center", justifyContent: "space-between",
     borderBottom: "2.5px solid #ffd200",
   },
-  headerInner: { display: "flex", alignItems: "center", gap: 14 },
+  headerInner: { display: "flex", alignItems: "center", gap: 10 },
   logoMark: {
-    width: 50, height: 50, borderRadius: 14,
+    width: 36, height: 36, borderRadius: 10,
     background: "linear-gradient(135deg, rgba(255,210,0,0.18), rgba(255,255,255,0.05))",
     border: "1px solid rgba(255,210,0,0.3)",
     display: "flex", alignItems: "center", justifyContent: "center",
-    fontSize: 24, flexShrink: 0,
+    fontSize: 20, flexShrink: 0,
   },
-  propertyName: { fontSize: 22, fontWeight: 700, color: "#fff", lineHeight: 1.2 },
+  propertyName: { fontSize: 17, fontWeight: 700, color: "#fff", lineHeight: 1.2 },
   brandLine: { display: "flex", alignItems: "center", gap: 10, marginTop: 3 },
   irieBadge: {
     background: "#ffd200", color: "#071a0b",
@@ -248,23 +248,21 @@ const s = {
     boxShadow: "0 0 0 2px rgba(0,230,118,0.3)",
     animation: "pulse 2s infinite", display: "inline-block",
   },
-  strip: {
-    display: "flex", gap: 6, padding: "9px 16px",
-    background: "#f8fdf9", borderBottom: "1px solid #e4ede7", flexWrap: "wrap",
-  },
-  chip: {
-    background: "#e8f5ec", color: "#1a5c28", fontSize: 11, fontWeight: 600,
-    padding: "3px 10px", borderRadius: 20, border: "1px solid #c5e0cc", whiteSpace: "nowrap",
-  },
   messages: {
-    flex: 1, overflowY: "auto", padding: "20px 18px 8px",
+    flex: 1, overflowY: "auto", padding: "14px 14px 8px",
     display: "flex", flexDirection: "column", minHeight: 260,
+  },
+  avatarWrap: {
+    display: "flex", flexDirection: "column", alignItems: "center", gap: 2, flexShrink: 0,
   },
   avatar: {
     width: 34, height: 34, borderRadius: "50%",
     background: "linear-gradient(135deg, #1a5c28, #ffd200)",
     display: "flex", alignItems: "center", justifyContent: "center",
-    fontSize: 17, flexShrink: 0,
+    fontSize: 17,
+  },
+  avatarName: {
+    fontSize: 10, fontWeight: 700, color: "#006994", letterSpacing: "0.3px",
   },
   botBubble: {
     background: "#f2fbf4", border: "1px solid #cae8d2",
@@ -273,7 +271,7 @@ const s = {
     animation: "fadeUp 0.25s ease",
   },
   userBubble: {
-    background: "linear-gradient(135deg, #0d2e12, #1a5c28)",
+    background: "#006994",
     borderRadius: "18px 4px 18px 18px", padding: "13px 16px",
     maxWidth: "78%", fontSize: 14, lineHeight: 1.65, color: "#fff",
     animation: "fadeUp 0.25s ease",
@@ -289,8 +287,8 @@ const s = {
   },
   suggestGrid: { display: "flex", flexWrap: "wrap", gap: 7 },
   suggestBtn: {
-    background: "#fff", border: "1.5px solid #1a5c28", borderRadius: 18,
-    padding: "6px 13px", fontSize: 12.5, color: "#1a3d20",
+    background: "#fff", border: "1.5px solid #006994", borderRadius: 18,
+    padding: "6px 13px", fontSize: 12.5, color: "#006994",
     cursor: "pointer", fontWeight: 600,
   },
   inputRow: {
@@ -304,7 +302,7 @@ const s = {
   },
   sendBtn: {
     width: 44, height: 44, borderRadius: 12,
-    background: "linear-gradient(135deg, #0d2e12, #1a5c28)",
+    background: "#006994",
     border: "none", color: "#ffd200", fontSize: 17,
     cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center",
     flexShrink: 0, transition: "opacity 0.2s",
